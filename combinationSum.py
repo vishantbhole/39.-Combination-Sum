@@ -19,3 +19,11 @@ class Solution:
     return res
 
 
+# Example usage
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [2,3,6,7]
+    target = 7
+    print("Output is:", sol.combinationSum(nums, target))
+
+
